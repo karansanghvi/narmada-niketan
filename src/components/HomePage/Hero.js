@@ -1,8 +1,8 @@
 import React from 'react';
-import '../assets/styles/wave.css';
-import '../App.css';
-import '../assets/styles/home.css'
-import img1 from '../assets/images/home/photo1706761289.jpeg';
+import '../../assets/styles/wave.css';
+import '../../App.css';
+import '../../assets/styles/home.css'
+import img1 from '../../assets/images/home/photo1706761289.jpeg';
 // import heroimage from '../assets/images/home/home_image_1.jpeg';
 
 function Hero() {

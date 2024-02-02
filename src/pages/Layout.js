@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Outlet, Link } from "react-router-dom";
 import logo from '../assets/images/narmada_niketan_logo.jpeg';
 import '../App.css';
+import '../assets/styles/navbar.css';
 
 function Layout() {
   const [isMenuOpen, setMenuOpen] = useState(false);
