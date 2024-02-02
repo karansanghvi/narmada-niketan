@@ -10,11 +10,11 @@ function OurArea() {
   return (
     <>
       <div className='flex justify-center mt-10'>
-        <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl text-center text-black" style={{ textShadow: '4px 4px 6px rgba(0, 0, 0, 0.7)' }}>
+        <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl text-center text-black">
           Our Premises
         </h1>
       </div>
-      <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:ml-36 mr-2 md:mr-56'>
+      <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:ml-36 mr-4 ml-4 md:mr-56'>
         <div>
             <img src={area1} alt="" className='rounded-lg shadow-xl' />
         </div>
@@ -25,7 +25,7 @@ function OurArea() {
             <img src={area3} alt="" className='rounded-lg shadow-xl' />
         </div>
       </div>
-      <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:ml-36 mr-2 md:mr-56'>
+      <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4 md:ml-36 mr-4 ml-4 md:mr-56'>
         <div>
             <img src={area4} alt="" className='rounded-lg shadow-xl' />
         </div>

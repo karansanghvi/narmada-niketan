@@ -12,12 +12,15 @@ import canteen from '../../assets/images/icons/restaurant.png';
 import satsanghall from '../../assets/images/icons/conference.png';
 import lift from '../../assets/images/icons/elevator.png';
 import morgue from '../../assets/images/icons/morgue.png';
+import tv from '../../assets/images/icons/tv.png';
+import newspaper from '../../assets/images/icons/newspaper_2965879.png';
+import barber from '../../assets/images/icons/barbershop_11154069.png';
 
 function Facilities() {
   return (
     <>
       <div className='flex justify-center mt-10'>
-        <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl text-center text-black" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.0.5)' }}>
+        <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl text-center text-black">
           Facilities We Provide
         </h1>
       </div>
@@ -71,6 +74,20 @@ function Facilities() {
         <div className='facilities-card'>
             <img src={morgue} alt="" className='w-20 h-20 mt-2' />
             <h1 className='text-black font-semibold text-xl'>Morgue</h1>
+        </div>
+      </div>
+      <div className='grid md:grid-cols-3 grid-cols-2 md:ml-72 md:mr-72 md:mt-8 mt-6 mb-6'>
+        <div className="facilities-card">
+            <img src={tv} alt="" className='w-20 h-20 mt-2' />
+            <h1 className='text-black font-semibold text-xl'>TV</h1>
+        </div>
+        <div className='facilities-card'>
+            <img src={newspaper} alt="" className='w-20 h-20 mt-2' />
+            <h1 className='text-black font-semibold text-xl'>Newspaper</h1>
+        </div>
+        <div className='facilities-card'>
+            <img src={barber} alt="" className='w-20 h-20 mt-2' />
+            <h1 className='text-black font-semibold text-xl'>Barber Shop</h1>
         </div>
       </div>
     </>
