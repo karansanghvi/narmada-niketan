@@ -2,12 +2,13 @@ import React from 'react';
 import '../assets/styles/wave.css';
 import '../App.css';
 import '../assets/styles/home.css'
-import heroimage from '../assets/images/home/home_image_1.jpeg';
+import img1 from '../assets/images/home/photo1706761289.jpeg';
+// import heroimage from '../assets/images/home/home_image_1.jpeg';
 
 function Hero() {
   return (
     <>
-      <section className="blue">
+      {/* <section className="blue">
         <div className="grid md:grid-cols-2 grid-cols-1 mr-1 mt--2">
           <div>
             <img src={heroimage} alt="" className="hero-image rounded-lg" />
@@ -18,7 +19,15 @@ function Hero() {
           </div>
         </div>
         <div className="curve"></div>
-    </section>
+      </section> */}
+      {/* <img src={heroimage} alt="" className="hero-image rounded-lg" /> */}
+      <div className="relative mb-8">
+        <img src={img1} alt="" className="blurimage" />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h1 className="text-one">Your Second Home</h1>
+          <h1 className="text-two">Since 1984</h1>
+        </div>
+      </div>
     </>
   )
 }

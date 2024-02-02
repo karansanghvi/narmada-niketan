@@ -6,7 +6,6 @@ function Home() {
   return (
     <>
       <Hero/>
-      <br /> <br /> <br /> <br /> <br />
       <HomeAbout/>
     </>
   )
