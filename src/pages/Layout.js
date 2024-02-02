@@ -87,7 +87,7 @@ function Layout() {
                 <a href="/testimonials" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Testimonials</a>
               </li>
               <li>
-                <Link to="/donate" className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3 py-2 text-center bg-backgroundColor">Donate</Link>
+                <Link to="/donate" className="text-white focus:ring-4 focus:outline-none font-semibold rounded-lg text-sm px-3 py-2 text-center bg-backgroundColor">Donate</Link>
               </li>
             </ul>
           </div>
