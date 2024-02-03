@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import location from '../assets/images/icons/placeholder.png';
-// import phone from '../../assets/images/icons/phone.png';
-// import email from '../../assets/images/icons/mail.png';
+import 'remixicon/fonts/remixicon.css'
 
 function Footer() {
   return (
@@ -12,34 +10,44 @@ function Footer() {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link to="/" className="flex items-center">
-                <span className="self-center text-2xl font-semibold whitespace-nowrap text-black">
+                <span className="self-center md:text-2xl text-xl font-semibold whitespace-nowrap text-black">
                   Narmadaben Charitable Foundation
                 </span>
               </Link>
-              {/* <div style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={location} alt="" style={{ width: '40px', height: '40px', marginLeft: '-2px' }} />
-                <p style={{ color: 'black', marginLeft: '10px' }}>
-                  Plot No. 2, Sector 8,<br />
-                  CBD Belapur,<br />
-                  Navi Mumbai- 400702
-                </p>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={phone} alt="" style={{ width: '40px', height: '40px', marginLeft: '-2px' }} />
-                <p style={{ color: 'black', marginLeft: '10px' }}>
-                  Plot No. 2, Sector 8,<br />
-                  CBD Belapur,<br />
-                  Navi Mumbai- 400702
-                </p>
-              </div>
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={email} alt="" style={{ width: '40px', height: '40px', marginLeft: '-2px' }} />
-                <p style={{ color: 'black', marginLeft: '10px' }}>
-                  Plot No. 2, Sector 8,<br />
-                  CBD Belapur,<br />
-                  Navi Mumbai- 400702
-                </p>
-              </div> */}
+              <div className='mt-4 ml-8'>
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <i className="ri-map-pin-fill text-black"></i>
+                        <p className='text-black ml-6 font-semibold'>Narmada Niketan & Vishram Dham:</p>
+                    </div>
+                        <p className='text-black justify-evenly ml-10'>
+                            Plot No. 2, Sector 8, 
+                            CBD Belapur, 
+                            Navi Mumbai- 400702
+                        </p>
+                        <p className='text-black ml-10 font-semibold'>Registered Office:</p>
+                        <p className='text-black justify-evenly ml-10'>
+                            5, Rajshree Palace, 
+                            Khimji Lane, Ghatkopar (East), 
+                            Mumbai- 400077 
+                        </p>
+                    <br />
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <i className="ri-phone-fill text-black"></i>
+                        <p className='text-black ml-6 font-semibold'>Landline Number:</p>
+                    </div>
+                    <p className='text-black ml-10'>Narmada Niketan: <a href='tel:+02227571555'>+022-27571555</a> | Vishram Dham: <a href='tel:+0222757 8754'>+022-27578754</a></p>
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        {/* <i className="ri-phone-fill text-black"></i> */}
+                        <p className='text-black ml-10 font-semibold'>Phone Number:</p>
+                    </div>
+                    <p className='text-black ml-10'>President Bhupatray J. Mehta: <a href='tel:+91 9820980590'>+91- 9820980590</a> | Rahul Mehta: <a href='tel:+919820256689'>+91-9820256689</a></p>
+                    <br />
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                        <i className="ri-mail-fill text-black"></i>
+                        <p className='text-black ml-6 font-semibold'>Email Address:</p>
+                    </div>
+                    <p className='text-black ml-10'><a href="mailto:ncfoundation@gmail.com">ncfoundation@gmail.com</a></p>
+                </div>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
