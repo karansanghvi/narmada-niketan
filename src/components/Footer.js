@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <>
-      <footer className="bg-white">
+      <footer className="footer-background">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -57,19 +57,16 @@ function Footer() {
                         <Link to="/ourfacilities" className='text-black'>Our Facilities</Link>
                     </li>
                     <li>
-                        <a href="/codeofconduct" className='text-black'>Code Of Conduct</a>
+                        <Link to="/celebrations" className='text-black'>Celebrations</Link>
                     </li>
                     <li>
-                        <a href="/celebrations" className='text-black'>Celebrations</a>
+                        <Link to="/tariff" className='text-black'>Tariff</Link>
                     </li>
                     <li>
-                        <a href="/tariff" className='text-black'>Tariff</a>
+                        <Link to="/testimonials" className='text-black'>Testimonials</Link>
                     </li>
                     <li>
-                        <a href="/testimonials" className='text-black'>Testimonials</a>
-                    </li>
-                    <li>
-                        <a href="/donate" className='text-black'>Donate</a>
+                        <Link to="/donate" className='text-black'>Donate</Link>
                     </li>
                 </ul>
               </div>
@@ -77,9 +74,9 @@ function Footer() {
                 <h2 className="mb-6 text-sm font-semibold uppercase text-black">Legal</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <Link to="/" className="text-black">
-                      Terms & Conditions
-                    </Link>
+                    <li>
+                        <Link to="/codeofconduct" className='text-black'>Code Of Conduct</Link>
+                    </li>
                   </li>
                 </ul>
               </div>
