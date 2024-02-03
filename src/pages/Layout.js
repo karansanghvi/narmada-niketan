@@ -73,7 +73,7 @@ function Layout() {
                 <Link to="/aboutus" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">About Us</Link>
               </li>
               <li>
-                <Link to="/ourfacilities" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Our Facilities</Link>
+                <Link to="/ourarea" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Facilities</Link>
               </li>
               <li>
                 <a href="/codeofconduct" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Code Of Conduct</a>

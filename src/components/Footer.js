@@ -62,7 +62,7 @@ function Footer() {
                         <Link to="/aboutus" className='text-black'>About Us</Link>
                     </li>
                     <li>
-                        <Link to="/ourfacilities" className='text-black'>Our Facilities</Link>
+                        <Link to="/ourarea" className='text-black'>Facilities</Link>
                     </li>
                     <li>
                         <Link to="/celebrations" className='text-black'>Celebrations</Link>
