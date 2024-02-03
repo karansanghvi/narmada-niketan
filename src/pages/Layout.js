@@ -13,7 +13,7 @@ function Layout() {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 shadow-lg">
+      <nav className="bg-white border-gray-200 shadow-lg fixed w-full top-0 z-10">
         <div className="flex flex-wrap items-center justify-between mx-auto p-4 ml-4 mr-4">
           <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
             <img src={logo} className="md:h-20 h-10" alt="NFC Logo" />
