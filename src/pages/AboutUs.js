@@ -2,6 +2,8 @@ import React from 'react'
 import AboutPresident from '../components/AboutUsPage/AboutPresident'
 import Objective from '../components/AboutUsPage/Objective'
 import FoundingPrinciples from '../components/AboutUsPage/FoundingPrinciples'
+import Footer from '../components/Footer';
+import BothBuildings from '../components/AboutUsPage/BothBuildings';
 
 function AboutUs() {
   return (
@@ -11,11 +13,13 @@ function AboutUs() {
           About Us
         </h1>
       </div>
-      <br />
+      <Objective/>
+      <BothBuildings/>
+      <FoundingPrinciples/>
+      <br /> <br />
       <AboutPresident/>
       <br />
-      <Objective/>
-      <FoundingPrinciples/>
+      <Footer/>
     </>
   )
 }

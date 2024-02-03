@@ -36,6 +36,9 @@ function OurArea() {
             <img src={area6} alt="" className='rounded-lg shadow-xl' />
         </div>
       </div>
+      <div className='flex justify-center mt-4 md:mt-10'>
+        <a href="/ourarea" className="text-white bg-backgroundColor pt-3 pb-3 pr-8 pl-8 font-semibold text-lg md:text-2xl rounded-full">View More</a>
+      </div>
     </>
   );
 }

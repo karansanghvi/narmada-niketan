@@ -51,7 +51,7 @@ function Footer() {
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-black">Resources</h2>
+                <h2 className="mb-6 text-lg font-semibold uppercase text-black">Resources</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li>
                     <Link to="/" className="text-black">
@@ -79,7 +79,7 @@ function Footer() {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-black">Legal</h2>
+                <h2 className="mb-6 text-lg font-semibold uppercase text-black">Legal</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <li>
@@ -92,8 +92,8 @@ function Footer() {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm sm:text-center text-black">
-              © 2024 <Link to="/" className="text-black">Narmadaben Charitable Foundation</Link>. All Rights Reserved.
+            <span className="sm:text-center text-black text-lg font-bold">
+              © 2024 <Link to="/" className="text-black text-lg font-bold">Narmadaben Charitable Foundation</Link>. All Rights Reserved.
             </span>
           </div>
         </div>

@@ -1,10 +1,49 @@
 .principle-card {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    display: grid;
-    place-items: center;
-    border-radius: 12px;
-    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+  background: #39DB4A;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  transition: 0.25s ease;
+  flex-direction: column;
+  text-align: left;
+  height: 260px;
+  margin-right: 20px;
 }
+
+.principle-card-two {
+  background: #39DB4A;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  transition: 0.25s ease;
+  flex-direction: column;
+  text-align: left;
+  height: 210px;
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+    .principle-card,
+    .principle-card-two {
+      margin-right: 20px;
+    }
+  }
+  
+  /* Small screens (sm) */
+  @media (max-width: 767px) {
+    .principle-card,
+    .principle-card-two {
+      margin-right: 0;
+      width: 100%; /* Make cards take full width */
+      margin-top: 10px;
+    }
+    .principle-card-two {
+        height: 300px;
+    }
+  }
