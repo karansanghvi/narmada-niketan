@@ -30,6 +30,7 @@ import top_view_1 from '../assets/images/facilities/top view/top_view_1.jpeg';
 import top_view_2 from '../assets/images/facilities/top view/top_view_2.jpeg';
 import top_view_3 from '../assets/images/facilities/top view/top_view_3.jpeg';
 import Footer from '../components/Footer';
+import '../assets/styles/facilities.css';
 
 function OurFacilities() {
   return (
@@ -41,7 +42,56 @@ function OurFacilities() {
       </div>
 
       <div className='ml-2 md:ml-56 mr-2 md:mr-72 mt-4'>
-        {/* <h1 className='text-black text-2xl font-extrabold'>Narmada Niketan</h1> */}
+        {/* capacity */}
+        <h1 className='text-black font-bold'>
+          Narmadaben Chairtable Foundation (NCF) provides a variety of facilities which are included in the monthly charges to the residents:
+        </h1>
+        <div>
+          <ul>
+            <li className='text-black'>
+              <b>1) </b>
+              Stay in 225 to 300 sq ft rooms. Each of these rooms includes basic furniture like bed, mattress, cupboard, table and an attached toilet.
+            </li>
+            <li className='text-black'>
+              <b>2) </b>
+              Vegetarian meals (without onions and garlic) which includes breakfast, lunch and dinner. Along with this tea/coffee served thrice a day.
+            </li>
+            <li className='text-black'>
+              <b>3) </b>
+              Utility charges include water and electricity.
+            </li>
+            <li className='text-black'>
+              <b>4) </b>
+              Common facilities like TV room, newspapers, magazine subscriptions, etc. to all residents.
+            </li>
+            <li className='text-black'>
+              <b>5) </b>
+              Cleaning of rooms, washing of clothes, room service if applicable.
+            </li>
+            <li className='text-black'>
+              <b>6) </b>
+              Campus includes a Radha Krishna temple at Narmada Niketan and a Shivaling at Vishram Dham.
+            </li>
+            <li className='text-black'>
+              <b>7) </b>
+              The campus also has green areas, a library, meditation room, a saloon, and auditorium and walking track.
+            </li>
+            <li className='text-black'>
+              <b>8) </b>
+              As a responsible citizenry we have set up 20KW rooftop with mounted solar panels for generating electricity from sun light. 
+            </li>
+            <li className='text-black'>
+              <b>9) </b>
+              All the major Indian festivals are celebrated with the residents. Since a year, we have appointed two social workers to engage
+              with our elderly on a daily basis. Several other initiatives like an Awakin circle is hosted at the premises where the elders participate.
+            </li>
+          </ul>
+        </div>
+        <div className='mt-4'>
+          <b className='text-black'>Note:</b>
+          <p className='text-black'>Cleaning of rooms, washing of clothes, room services is provided at a nominal cost.</p>
+          <p className='text-black'>Residents are allowed to bring their white goods (TV, refrigerators, etc) on payment of due charges to the services provider and/or NCF as applicable.</p>
+        </div>
         <div className='grid md:grid-cols-3 grid-cols-1 mt-4 mb-4 gap-4'>
           <div>
             <img src={narmada_niketan_building_1} alt="" />
