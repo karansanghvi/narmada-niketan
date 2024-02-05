@@ -1,10 +1,128 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function Donate() {
   return (
-    <div>
-      Donate 
-    </div>
+    <>
+      <div className='flex justify-center mt-36'>
+        <h1 className="font-semibold text-5xl md:text-6xl lg:text-7xl text-center text-black">
+          Want To Help Us?
+        </h1>
+      </div>
+
+      <div className='ml-2 md:ml-56 mr-2 md:mr-72 mt-4'>
+        <p className='text-black text-justify'>
+          Right from the inception of Narmada Charitable Foundation (NCF), numerous donors have showered us with their generosity. The donations have been in the form of money as well as volunteering. Several organizations also offer their contribution in the form of workshops, physiotherapy sessions etc. Without this support, we are certain that NCF would not have seen the light of this day.
+        </p>
+        <p className='text-black font-bold text-center mt-2'>
+          We accept monetary contributions in any denomination.
+        </p>
+        <p className='text-black mt-2'>
+          The utilization of the donations will be towards the following:
+        </p>
+        <ol type="1" className='text-black ml-3' style={{ listStyleType: 'decimal' }}>
+          <li className='text-black font-bold'>
+            The maintenance of the premises:
+          </li>
+          <p className='text-black'>
+            The campus being almost 3 decades old encounters constant wear and tear which need to be attended.
+          </p>
+          <li className='text-black font-bold'>
+            Amenities:
+          </li>
+          <p className='text-black'>
+            We are developing a Recreation Area for our elderly residents at our Vishram Dham campus and contributions can help set up exercise equipment within our campus for the elderly.
+          </p>
+          <li className='text-black font-bold'>
+            Skill-building:
+          </li>
+          <p className='text-black text-justify'>
+            We recognize that as India’s population ages, skills need to be developed for taking care of this geriatric population. We are in discussions with TISS to run a skill building program for geriatric care within our premises. Graduates of this program will be able to take care of elderly people and will be employable as aayaas, wardboys. Your contributions will help us subsidize the course fees for the needy students.
+          </p>
+          <li className='text-black font-bold'>
+            Conservation:
+          </li>
+          <p className='text-black text-justify'>
+            Currently, the bathing water is heated by solar heaters which has an installed capacity of 15,000 liters. In May 2016, we commissioned a 20KW solar plant on our rooftop for electricity generation. Depending on donations, we intend to augment the capacity to 2-3 times. We also intend to set up a waste water treatment plant to conserve water and use the treated gray water for watering our plantations.
+          </p>
+        </ol>
+
+        <div className='mt-4'>
+          <p className='text-black font-bold'>There are several ways in which you could contribute to this cause. Some are listed below:</p>
+          <ol type="1" className='text-black ml-3' style={{ listStyleType: 'decimal' }}>
+            <li>
+              We have a plan to increase the built-up area of the homes to a total of 90,000 sq ft. For this, we are in constant needs of funds. This donation is accepted for:
+            </li>
+            <div className='flex'>
+              <b>Plan 1: </b>
+              <p className='text-black'>Various schemes for naming a particular section of our Homes ranging from Rs 11 lacs to Rs 1.25 lacs.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 2: </b>
+              <p className='text-black'>Fixing a name plate outside the rooms - Rs 75,000.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 3: </b>
+              <p className='text-black'>A permanent right to admit one elderly person subject to admission rules – Rs 50,000. The admitted elderly will have to pay deposit.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 4: </b>
+              <p className='text-black'>A one-time donation of Rs 11,000/- towards equipment required for one elderly person. Donor’s name will be displayed in the donor’s list.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 5: </b>
+              <p className='text-black'>Towards Pooja in our temple on a particular day – Rs 2,500.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 6: </b>
+              <p className='text-black'>Donating monies towards our equipment requirement from time to time. For e.g. TV, etc depending upon what we require</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 7: </b>
+              <p className='text-black'>Donations are accepted towards the expenses incurred for the maintenance of existing and planned green areas like lawns.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 8: </b>
+              <p className='text-black'>Estimated expenses towards installing statues and chairs at regular intervals would be in the range of Rs 15 lacs.</p>
+            </div>
+            <div className='flex'>
+              <b>Plan 9: </b>
+              <p className='text-black'>The donors can contribute as per their might. Monetary help as well as any kind of volunteering in any form is always welcome.</p>
+            </div>
+            <li>
+              50% of donations are allowed as deduction under Section 80G of IT Act
+            </li>
+            <li>
+              Exempted under Gift Tax under Section 5 (1) (v) of Gift Tax Act
+            </li>
+            <li>
+            Donations are not included in the wealth of the donor.
+            </li>
+          </ol>
+
+          <p className='text-black font-bold text-center mt-4 text-lg'>
+            Cheque/DD to be made in the name of "Narmadaben Charitable Foundation"
+          </p>
+
+          <p className='text-black font-bold mt-4'>Volunteering:</p>
+          <ol type="1" className='text-black ml-3' style={{ listStyleType: 'decimal' }}>
+            <li>
+              We are always looking for increasing the activities at our Homes for the benefit of our residents. If you would like to conduct any regular activity (yoga/pranayam, singing bhajans, etc.) for our inmates, we welcome you.
+            </li>
+            <li>
+              We look for partner NGOs/Trusts that could run centers (for e.g naturopathy, toy library, etc) promoting related activities from our premises.
+            </li>
+            <li>
+              And finally, we welcome you to come over to the Homes and visit us regularly.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <br />
+
+      <Footer/>
+    </>
   )
 }
 
