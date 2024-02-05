@@ -12,13 +12,13 @@ function HomeAbout() {
         </div>
         <div className="md:mt-0 mt-8"> 
           <div className="mb-8">
-            <p className='text-black justify-evenly'>
+            <p className='text-black text-justify'>
               In the hustle of life—navigating peer pressure, family, and career—we often forget to reflect on who we truly are. As retirement looms, many fall into the trap of believing life loses its essence.
             </p>
-            <p className='text-black justify-evenly'>
+            <p className='text-black text-justify'>
               Yet, this phase is an opportunity for renewal. Freed from the pressures, we can discover our strengths, contribute to a better world, and reignite the joy of learning. Vanaprastha, the autumn of life, is a chance for a personal embrace.
             </p>
-            <p className="text-black justify-evenly">
+            <p className="text-black text-justify">
               NCF is here to guide you through this transition, supporting your journey to a fulfilling post-retirement life. It's not a waiting room; it's a gateway to new beginnings.
             </p>
           </div>

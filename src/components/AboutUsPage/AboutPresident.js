@@ -17,7 +17,7 @@ function AboutPresident() {
         </div>
         <div className="md:mt-1 mt-8"> 
           <div className="mb-8 mr-8">
-            <p className='text-black justify-evenly'>
+            <p className='text-black text-justify'>
               Narmadaben Charitable Foundation is fortified by the steadfast support of esteemed trustees, 
               including <b>Shri. Subhash Pingle</b>, <b>Shri. Nagindas Mehta</b>, and <b>Shri. Dr. Jairaj</b>. 
               Additionally, our foundation has been enriched by the contributions of ex-trustees, namely <b>Shri. Hasmukhbhai M Mehta</b>, 
