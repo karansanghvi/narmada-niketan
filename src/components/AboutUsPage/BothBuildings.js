@@ -19,7 +19,7 @@ function BothBuildings() {
 
             <div className='mt-4'>
               <div className="flex items-center gap-4">
-                <h1 className="font-extrabold text-2xl text-black">Vishram Dham</h1>
+                <h1 className="font-extrabold text-2xl text-black">Smt. Bhanumati Mukundrai Mehta - Vishram Dham</h1>
               </div>
               <p className="text-black md:block text-justify">
                 Our second Home, a building constructed on a plot of 6000 sq m to accommodate 150 mobile senior citizens with boarding facility. It also includes a spacious auditorium (Mangal sabhagruh) to accommodate 500 people, and vast halls which are envisioned to be given to other organizations for carrying out related activities in line with the objects of the NCF Trust. It has various sections like Arogya Dham and Home for the Aged for accommodating elderly residents.

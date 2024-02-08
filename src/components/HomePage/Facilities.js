@@ -57,7 +57,7 @@ function Facilities() {
         </div>
         <div className='facilities-card'>
             <img src={hospital} alt="" className='w-20 h-20 mt-2' />
-            <h1 className='text-black font-semibold text-xl'>Hospital</h1>
+            <h1 className='text-black font-semibold text-xl'>Clinic</h1>
         </div>
         <div className='facilities-card'>
             <img src={canteen} alt="" className='w-20 h-20 mt-2' />

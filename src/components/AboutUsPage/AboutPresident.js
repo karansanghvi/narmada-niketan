@@ -19,9 +19,9 @@ function AboutPresident() {
           <div className="mb-8 mr-8">
             <p className='text-black text-justify'>
               Narmadaben Charitable Foundation is fortified by the steadfast support of esteemed trustees, 
-              including <b>Shri. Subhash Pingle</b>, <b>Shri. Nagindas Mehta</b>, and <b>Shri. Dr. Jairaj</b>. 
+              including <b>Shri. Subhash Pingle</b>, and <b>Shri. Dr. Jairaj</b>. 
               Additionally, our foundation has been enriched by the contributions of ex-trustees, namely <b>Shri. Hasmukhbhai M Mehta</b>, 
-              <b>Late Shri. T N Chandran</b>, and <b>Late Ms. Nirupamaben Vasavada</b>. 
+              <b>Late Shri. T N Chandran</b>, <b>Late Ms. Nirupamaben Vasavada</b> and <b>Late Shri. Nagindas Mehta</b>. 
               Together, these dedicated individuals have played pivotal roles in guiding the foundation through numerous milestones, 
               transforming our collective dream into a remarkable reality. Their enduring commitment has been a cornerstone of our eventful journey.
             </p>

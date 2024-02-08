@@ -20,13 +20,13 @@ function Objective() {
             </p>
             <p className='text-black font-extrabold mt-2 text-xl'>Our Objectives:</p>
             <p className='text-black text-justify'>
-                1) To provide an ambiance of hygiene, silence & safety for the inmates who stay at our home.
+                1) To provide an ambiance of hygiene, silence & safety for the residents who stay at our home.
             </p>
             <p className='text-black text-justify'>
-                2) To encourage & facilitate the inmates to explore activities & hobbies which keep them creatively occupied.
+                2) To encourage & facilitate the residents to explore activities & hobbies which keep them creatively occupied.
             </p>
             <p className='text-black text-justify'>
-                3) To be a hub of activities & services that keep our inmates smiling. 
+                3) To be a hub of activities & services that keep our residents smiling. 
             </p>
           </div>
         </div>

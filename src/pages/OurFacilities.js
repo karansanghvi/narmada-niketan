@@ -50,11 +50,11 @@ function OurFacilities() {
           <ul>
             <li className='text-black'>
               <b>1) </b>
-              Stay in 225 to 300 sq ft rooms. Each of these rooms includes basic furniture like bed, mattress, cupboard, table and an attached toilet.
+              Stay in 225 to 300 sq ft rooms. Each of these rooms includes basic furniture like bed, mattress, cupboard, table, chair and an attached toilet.
             </li>
             <li className='text-black'>
               <b>2) </b>
-              Vegetarian meals (without onions and garlic) which includes breakfast, lunch and dinner. Along with this tea/coffee served thrice a day.
+              Vegetarian meals which includes breakfast, lunch and dinner. Along with this tea/coffee served thrice a day.
             </li>
             <li className='text-black'>
               <b>3) </b>
@@ -62,7 +62,7 @@ function OurFacilities() {
             </li>
             <li className='text-black'>
               <b>4) </b>
-              Common facilities like TV room, newspapers, magazine subscriptions, etc. to all residents.
+              Common facilities like common room, newspapers, magazine subscriptions, etc. to all residents.
             </li>
             <li className='text-black'>
               <b>5) </b>
@@ -78,11 +78,11 @@ function OurFacilities() {
             </li>
             <li className='text-black'>
               <b>8) </b>
-              As a responsible citizenry we have set up 20KW rooftop with mounted solar panels for generating electricity from sun light. 
+              As a responsible citizenry we have set up 140KW rooftop with mounted solar panels for generating electricity from sun light. 
             </li>
             <li className='text-black'>
               <b>9) </b>
-              All the major Indian festivals are celebrated with the residents. Since a year, we have appointed two social workers to engage
+              All the major Indian festivals are celebrated with the residents. We have appointed two social workers to engage
               with our elderly on a daily basis. Several other initiatives like an Awakin circle is hosted at the premises where the elders participate.
             </li>
           </ul>
