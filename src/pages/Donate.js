@@ -14,7 +14,7 @@ function Donate() {
         <p className='text-black text-justify'>
           Right from the inception of Narmada Charitable Foundation (NCF), numerous donors have showered us with their generosity. The donations have been in the form of money as well as volunteering. Several organizations also offer their contribution in the form of workshops, physiotherapy sessions etc. Without this support, we are certain that NCF would not have seen the light of this day.
         </p>
-        <p className='text-black font-bold text-center mt-2'>
+        <p className='text-black font-extrabold text-center mt-2 text-2xl'>
           We accept monetary contributions in any denomination.
         </p>
         <p className='text-black mt-2'>
@@ -100,7 +100,7 @@ function Donate() {
             </li>
           </ol>
 
-          <p className='text-black font-bold text-center mt-4 text-lg'>
+          <p className='text-black font-extrabold text-center mt-4 text-2xl'>
             Cheque/DD to be made in the name of "Narmadaben Charitable Foundation"
           </p>
 
