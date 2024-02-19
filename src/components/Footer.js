@@ -71,9 +71,6 @@ function Footer() {
                         <Link to="/tariff" className='text-black'>Tariff</Link>
                     </li>
                     <li>
-                        <Link to="/testimonials" className='text-black'>Testimonials</Link>
-                    </li>
-                    <li>
                         <Link to="/donate" className='text-black'>Donate</Link>
                     </li>
                 </ul>

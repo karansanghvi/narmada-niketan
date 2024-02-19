@@ -44,7 +44,7 @@ function Contact() {
                     <p className='text-black ml-10'>Vishram Dham: <a href='tel:+0222757 8754'>+022-27578754</a></p>
                     <p className='text-black ml-10 font-semibold'>Mobile Number:</p>
                     <p className='text-black ml-10'>President Bhupatray J. Mehta: <a href='tel:+91 9820980590'>+91- 9820980590</a></p>
-                    <p className='text-black ml-10'>Vishram Dham: <a href='tel:+919820256689'>+91-9820256689</a></p>
+                    <p className='text-black ml-10'>Rahul Mehta: <a href='tel:+919820256689'>+91-9820256689</a></p>
                     <br />
                     <div style={{ display: 'flex', alignItems: 'center' }}>
                         <img src={email} alt="" className='w-8 h-8' />

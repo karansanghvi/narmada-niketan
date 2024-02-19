@@ -8,7 +8,7 @@ import Celebrations from "./pages/Celebrations";
 import Donate from "./pages/Donate";
 import OurFacilities from "./pages/OurFacilities";
 import Tariff from "./pages/Tariff";
-import Testimonials from "./pages/Testimonials";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           <Route path="donate" element={<Donate/>} />
           <Route path="ourarea" element={<OurFacilities/>} />
           <Route path="tariff" element={<Tariff/>} />
-          <Route path="testimonials" element={<Testimonials/>} />
+          <Route path="contactus" element={<ContactUs/>} />
         </Route>
       </Routes>
     </BrowserRouter>

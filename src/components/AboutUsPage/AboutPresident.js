@@ -1,5 +1,9 @@
 import React from 'react';
 import nanapic from '../../assets/images/aboutus/bhupatray_mehta_picture.jpg';
+import hiteshmehtapic from '../../assets/images/aboutus/hitesh mehta.jpg';
+import rahulmehtapic from '../../assets/images/aboutus/rahul mehta.jpg';
+import ashoknargardasmehtapic from '../../assets/images/aboutus/ashok nagardas mehta.jpg';
+import rrjairajpic from '../../assets/images/aboutus/dr rr jairaj.jpg';
 
 function AboutPresident() {
   return (
@@ -9,7 +13,7 @@ function AboutPresident() {
           Our Team
         </h1>
       </div>
-      <div className="grid md:grid-cols-2 grid-cols-1 ml-2 md:ml-56 mr-2 md:mr-72 mt-4">
+      {/* <div className="grid md:grid-cols-2 grid-cols-1 ml-2 md:ml-56 mr-2 md:mr-72 mt-4">
         <div>
           <img src={nanapic} alt="" className="hero-image rounded-lg shadow-xl" />
           <h1 className='text-black text-3xl font-extrabold ml-8'>Bhupatray J. Mehta</h1>
@@ -26,6 +30,38 @@ function AboutPresident() {
               transforming our collective dream into a remarkable reality. Their enduring commitment has been a cornerstone of our eventful journey.
             </p>
           </div>
+        </div>
+      </div> */}
+      <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-2 md:mr-72 mt-4'>
+        <div>
+          <img src={hiteshmehtapic} alt="" className="hero-image rounded-lg shadow-xl" />
+          <h1 className='text-black text-3xl font-extrabold ml-24'>Hitesh Mehta</h1>
+          <i className='text-black ml-36 text-xl'>Trustee</i>
+        </div>
+        <div>
+          <img src={nanapic} alt="" className="hero-image rounded-lg shadow-xl" />
+          <h1 className='text-black text-3xl font-extrabold ml-8'>Bhupatray J. Mehta</h1>
+          <i className='text-black ml-24 text-xl'>Founder President</i>
+        </div>
+        <div>
+          <img src={rahulmehtapic} alt="" className="hero-image rounded-lg shadow-xl" />
+          <h1 className='text-black text-3xl font-extrabold ml-24'>Rahul Mehta</h1>
+          <i className='text-black ml-36 text-xl'>Trustee</i>
+        </div>
+      </div>
+
+      <br />
+
+      <div className='grid md:grid-cols-2 grid-cols-1 md:ml-96 mr-2 md:mr-72 mt-4'>
+        <div>
+          <img src={ashoknargardasmehtapic} alt="" className="hero-image rounded-lg shadow-xl" />
+          <h1 className='text-black text-3xl font-extrabold ml-19'>Ashok Nagardas Mehta</h1>
+          <i className='text-black ml-36 text-xl'>Trustee</i>
+        </div>
+        <div>
+          <img src={rrjairajpic} alt="" className="hero-image rounded-lg shadow-xl" />
+          <h1 className='text-black text-3xl font-extrabold ml-24'>Dr. RR Jairaj</h1>
+          <i className='text-black ml-36 text-xl'>Trustee</i>
         </div>
       </div>
     </>

@@ -55,7 +55,7 @@ function Layout() {
                 <a href="/tariff" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Tariff</a>
               </li>
               <li>
-                <a href="/testimonials" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Testimonials</a>
+                <a href="/contactus" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Contact Us</a>
               </li>
               <li>
                 <Link to="/donate" className="text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-3 py-2 text-center bg-backgroundColor">Donate</Link>
@@ -85,7 +85,7 @@ function Layout() {
                 <a href="/tariff" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Tariff</a>
               </li>
               <li>
-                <a href="/testimonials" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Testimonials</a>
+                <a href="/contactus" className="block py-2 px-3 md:p-0  rounded  md:hover:bg-transparent  text-black md:dark:hover:bg-transparent font-semibold">Contact Us</a>
               </li>
               <li>
                 <Link to="/donate" className="text-white focus:ring-4 focus:outline-none font-semibold rounded-lg text-sm px-3 py-2 text-center bg-backgroundColor">Donate</Link>
