@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import narmada_niketan_building_1 from '../assets/images/facilities/narmada niketan/entrance.jpeg';
 import narmada_niketan_building_2 from '../assets/images/facilities/narmada niketan/narmada_niketan_main_building.jpeg';
 import narmada_niketan_building_3 from '../assets/images/facilities/narmada niketan/lobby.jpeg';
@@ -31,8 +31,15 @@ import top_view_2 from '../assets/images/facilities/top view/top_view_2.jpeg';
 import top_view_3 from '../assets/images/facilities/top view/top_view_3.jpeg';
 import Footer from '../components/Footer';
 import '../assets/styles/facilities.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function OurFacilities() {
+
+  useEffect(() => {
+    AOS.init({duration: 2000});
+  }, []);
+
   return (
     <>
       <div className='flex justify-center mt-36'>
@@ -93,26 +100,26 @@ function OurFacilities() {
           <p className='text-black'>Residents are allowed to bring their white goods (TV, refrigerators, etc) on payment of due charges to the services provider and/or NCF as applicable.</p>
         </div>
         <div className='grid md:grid-cols-3 grid-cols-1 mt-4 mb-4 gap-4'>
-          <div>
+          <div data-aos="fade-right">
             <img src={narmada_niketan_building_1} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Narmada Niketan Entrance</h1>
           </div>
-          <div>
+          <div data-aos="fade-down">
             <img src={narmada_niketan_building_2} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Narmada Niketan Building</h1>
           </div>
-          <div>
+          <div  data-aos="fade-left">
             <img src={narmada_niketan_building_3} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Narmada Niketan Lobby</h1>
           </div>
         </div>
 
         <div className='grid md:grid-cols-2 grid-cols-1 gap-4 mt-2'>
-          <div>
+          <div  data-aos="fade-right">
             <img src={temple1} alt="" />
           </div>
-          <div>
-            <img src={temple3} alt="" />
+          <div data-aos="fade-left">
+            <img src={temple3} alt=""  />
           </div>
         </div>
         <div>
@@ -120,12 +127,12 @@ function OurFacilities() {
         </div>
 
         <div className='grid md:grid-cols-2 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="fade-right" >
             <img src={canteen1} alt="" />
             <h1 className='text-black text-2xl font-bold text-center mt-2'>Canteen At Narmada Niketan</h1>
           </div>
-          <div>
-            <img src={canteen2} alt="" />
+          <div data-aos="fade-left">
+            <img src={canteen2} alt=""  />
             <h1 className='text-black text-2xl font-bold text-center mt-2'>Canteen At Vishram Dham</h1>
           </div>
         </div>
@@ -134,11 +141,11 @@ function OurFacilities() {
         </div>
 
         <div className='grid md:grid-cols-2 grid-cols-1 gap-4 mt-4'>
-          <div>
-            <img src={satsang_hall_1} alt="" />
+          <div data-aos="fade-right">
+            <img src={satsang_hall_1} alt=""  />
           </div>
-          <div>
-            <img src={satsang_hall_2} alt="" />
+          <div data-aos="fade-left">
+            <img src={satsang_hall_2} alt=""  />
           </div>
         </div>
         <div>
@@ -146,104 +153,104 @@ function OurFacilities() {
         </div>
 
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="fade-right">
             <img src={basketball_area} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Basketball Area At Vishram Dham</h1>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <img src={sitting_area} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Sitting Area</h1>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={main_entrance} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Vishram Dham Main Entrance</h1>
           </div>
         </div>
 
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="flip-right">
             <img src={building1} alt="" />
           </div>
-          <div>
+          <div data-aos="flip-right">
             <img src={building2} alt="" />
           </div>
-          <div>
+          <div data-aos="flip-right">
             <img src={building3} alt="" />
           </div>
         </div>
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-1'>
-          <div>
+          <div data-aos="flip-right">
             <img src={building4} alt="" />
           </div>
-          <div>
+          <div data-aos="flip-right">
             <img src={building5} alt="" />
           </div>
-          <div>
+          <div data-aos="flip-right">
             <img src={building6} alt="" />
           </div>
         </div>
         <div>
-          <h1 className='text-black text-2xl font-bold text-center mt-2'>Vishram Dham</h1>
+          <h1 className='text-black text-2xl font-bold text-center mt-2' data-aos="fade-up">Vishram Dham</h1>
         </div>
 
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="fade-right">
             <img src={male_ward} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Male Ward At Vishram Dham</h1>
           </div>
-          <div>
+          <div data-aos="fade-down">
             <img src={dispensary} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Dispensary</h1>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={female_ward} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Female Ward At Vishram Dham</h1>
           </div>
         </div>
 
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="fade-right">
             <img src={gym} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Gym</h1>
           </div>
-          <div>
+          <div data-aos="fade-up">
             <img src={library} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Library</h1>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={activity_area} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Activity Area</h1>
           </div>
         </div>
 
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="fade-right">
             <img src={shivling} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Shivling</h1>
           </div>
-          <div>
+          <div data-aos="fade-down">
             <img src={room} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Room</h1>
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={hanuman_temple} alt="" />
             <h1 className='text-black text-center text-2xl font-bold'>Hanuman Temple</h1>
           </div>
         </div>
 
         <div className='grid md:grid-cols-3 grid-cols-1 gap-4 mt-4'>
-          <div>
+          <div data-aos="fade-right">
             <img src={top_view_1} alt="" />
           </div>
-          <div>
+          <div data-aos="fade-up">
             <img src={top_view_2} alt="" />
           </div>
-          <div>
+          <div data-aos="fade-left">
             <img src={top_view_3} alt="" />
           </div>
         </div>
         <div>
-          <h1 className='text-black text-2xl font-bold text-center mt-2'>Top View Of Narmadaben Charitable Foundation (NCF)</h1>
+          <h1 className='text-black text-2xl font-bold text-center mt-2' data-aos="fade-up">Top View Of Narmadaben Charitable Foundation (NCF)</h1>
         </div>
       </div>
       <br /> <br />

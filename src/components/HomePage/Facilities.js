@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../assets/styles/home.css';
 import rooms from '../../assets/images/icons/hotel.png';
 import garden from '../../assets/images/icons/park.png';
@@ -15,16 +15,23 @@ import morgue from '../../assets/images/icons/morgue.png';
 import tv from '../../assets/images/icons/tv.png';
 import newspaper from '../../assets/images/icons/newspaper_2965879.png';
 import barber from '../../assets/images/icons/barbershop_11154069.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Facilities() {
+
+  useEffect(() => {
+    AOS.init({duration: 2000});
+  }, []);
+
   return (
     <>
       <div className='flex justify-center mt-10'>
-        <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl text-center text-black">
+        <h1 className="font-semibold text-4xl md:text-5xl lg:text-6xl text-center text-black" data-aos="fade-down">
           Facilities We Provide
         </h1>
       </div>
-      <div className='grid md:grid-cols-6 grid-cols-2 mt-6 justify-center items-center md:ml-48 mr-2 md:mr-56'>
+      <div className='grid md:grid-cols-6 grid-cols-2 mt-6 justify-center items-center md:ml-48 mr-2 md:mr-56' data-aos="zoom-in">
         <div className="facilities-card">
             <img src={rooms} alt="" className='w-20 h-20 mt-2' />
             <h1 className='text-black font-semibold text-xl'>90+ Rooms</h1>
@@ -50,7 +57,7 @@ function Facilities() {
             <h1 className='text-black font-semibold text-xl'>Badminton</h1>
         </div>
       </div>
-      <div className='grid md:grid-cols-6 grid-cols-2 md:ml-48 md:mr-56 md:mt-8 mt-6 mb-6'>
+      <div className='grid md:grid-cols-6 grid-cols-2 md:ml-48 md:mr-56 md:mt-8 mt-6 mb-6' data-aos="zoom-in">
         <div className="facilities-card">
             <img src={temple} alt="" className='w-20 h-20 mt-2' />
             <h1 className='text-black font-semibold text-xl'>Temple</h1>
@@ -76,7 +83,7 @@ function Facilities() {
             <h1 className='text-black font-semibold text-xl'>Morgue</h1>
         </div>
       </div>
-      <div className='grid md:grid-cols-3 grid-cols-2 md:ml-72 md:mr-72 md:mt-8 mt-6 mb-6'>
+      <div className='grid md:grid-cols-3 grid-cols-2 md:ml-72 md:mr-72 md:mt-8 mt-6 mb-6' data-aos="zoom-in">
         <div className="facilities-card">
             <img src={tv} alt="" className='w-20 h-20 mt-2' />
             <h1 className='text-black font-semibold text-xl'>TV</h1>

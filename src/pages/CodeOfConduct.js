@@ -122,8 +122,8 @@ function CodeOfConduct() {
         <div className='mt-4'>
           <b className='text-black text-xl'>Facilities and Rules For Any Camp:</b>
           <p className='text-black text-justify'>
-            Here is a facility for accommodating up to 25 people for residential camps and retreats like meditation camps, reiki, children activities, summer camps, etc. Organizations interested for the same would be provided with a spacious hall with microphone/public address system, food - beverages - snacks facilities for the campers, chairs - tables for stage and audience. The camp could be for a period of
-            1 to 7 days. For organizing such a camp, contact at Narmada Niketan or Vishram Dham.
+          Here is a facility for accommodating up to 25 people for residential camps and retreats like meditation camps, reiki, children activities, summer camps, etc. Organizations interested for the same would be provided with a spacious hall with microphone/public address system, food - beverages - snacks facilities for the campers, chairs - tables for stage and audience. The camp could be for a period of
+          1 to 7 days. For organizing such a camp, contact at Narmada Niketan or Vishram Dham.
           </p>
         </div>
       </div>

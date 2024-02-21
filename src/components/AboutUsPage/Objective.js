@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import img1 from '../../assets/images/aboutus/about_image_1.jpeg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Objective() {
+
+  useEffect(() => {
+    AOS.init({duration: 2000});
+  }, []);
+
   return (
     <>
        <div className="grid md:grid-cols-2 grid-cols-1 ml-2 md:ml-56 mr-2 md:mr-72 mt-4">
-        <div>
+        <div data-aos="fade-right">
           <img src={img1} alt="" className="hero-image rounded-lg shadow-xl " />
         </div>
         <div className="md:mt-1 mt-8"> 
-          <div className="mb-8 mr-8">
+          <div className="mb-8 mr-8" data-aos="fade-left">
             <p className='text-black text-justify'>
             The Narmadaben Charitable Foundation (NCF) is the embodiment of <b>Founder President Bhupatray Mehta's</b> visionary dream. Established on November 13th, 1980, in honor of his grandmother Narmadaben, the NCF Trust operates two Homes for the elderly in CBD Belapur, Navi Mumbai. 
             These Homes distinguish themselves through a No Profit No Loss model, ensuring residents are charged without commercial motives.
