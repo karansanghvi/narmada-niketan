@@ -12,7 +12,8 @@ function Donate() {
 
       <div className='ml-2 md:ml-56 mr-2 md:mr-72 mt-4'>
         <p className='text-black text-justify'>
-          Right from the inception of Narmada Charitable Foundation (NCF), numerous donors have showered us with their generosity. The donations have been in the form of money as well as volunteering. Several organizations also offer their contribution in the form of workshops, physiotherapy sessions etc. Without this support, we are certain that NCF would not have seen the light of this day.
+          Right from the inception of Narmada Charitable Foundation (NCF), numerous donors have showered us with their generosity. The donations have been in the form of money as well as volunteering.
+          Several organizations also offer their contribution in the form of workshops, music (orchestra, karaoke) physiotherapy sessions etc. Without this support, we are certain that NCF would not have seen the light of this day.
         </p>
         <p className='text-black font-extrabold text-center mt-2 text-2xl'>
           We accept monetary contributions in any denomination.
@@ -25,25 +26,19 @@ function Donate() {
             The maintenance of the premises:
           </li>
           <p className='text-black'>
-            The campus being almost 3 decades old encounters constant wear and tear which need to be attended.
+            The campus being over 4 decades old faces constant wear and tear which need to be attended.
           </p>
           <li className='text-black font-bold'>
-            Amenities:
+            Sustainable Endeavours:
           </li>
           <p className='text-black'>
-            We are developing a Recreation Area for our elderly residents at our Vishram Dham campus and contributions can help set up exercise equipment within our campus for the elderly.
+            Currently the Trust has solar power generation capacity in excess of 120kWh. A bulk of the power consumed at the Homes is generated through sustainable means. The Trust also intends to install waste (gray/black) water treatment plant and rain water harvesting to ensure zero waste and sustainability. 
           </p>
           <li className='text-black font-bold'>
             Skill-building:
           </li>
           <p className='text-black text-justify'>
-            We recognize that as India’s population ages, skills need to be developed for taking care of this geriatric population. We are in discussions with TISS to run a skill building program for geriatric care within our premises. Graduates of this program will be able to take care of elderly people and will be employable as aayaas, wardboys. Your contributions will help us subsidize the course fees for the needy students.
-          </p>
-          <li className='text-black font-bold'>
-            Conservation:
-          </li>
-          <p className='text-black text-justify'>
-            Currently, the bathing water is heated by solar heaters which has an installed capacity of 15,000 liters. In May 2016, we commissioned a 20KW solar plant on our rooftop for electricity generation. Depending on donations, we intend to augment the capacity to 2-3 times. We also intend to set up a waste water treatment plant to conserve water and use the treated gray water for watering our plantations.
+            We recognize that as India’s population ages, skills need to be developed for taking care of this geriatric population. We are in discussions with organizations such as TISS to run a skill building program for geriatric care within our premises. Graduates of this program will be able to take care of elderly people and will be employable as aayaas, wardboys. Your contributions will help us subsidize the course fees for the needy students.
           </p>
         </ol>
 
@@ -55,49 +50,63 @@ function Donate() {
             </li>
             <div className='flex'>
               <b>Plan 1: </b>
-              <p className='text-black'>Various schemes for naming a particular section of our Homes ranging from Rs 11 lacs to Rs 1.25 lacs.</p>
+              <p className='text-black'>
+                Various schemes for naming a particular section of our Homes ranging from Rs 25 lacs to Rs 5 lacs.
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 2: </b>
-              <p className='text-black'>Fixing a name plate outside the rooms - Rs 75,000.</p>
+              <p className='text-black'>
+                Fixing a name plate outside the rooms - Rs 150,000.
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 3: </b>
-              <p className='text-black'>A permanent right to admit one elderly person subject to admission rules – Rs 50,000. The admitted elderly will have to pay deposit.</p>
+              <p className='text-black'>
+                A one-time donation of Rs 11,000/- towards equipment required for one elderly person. Donor’s name will be displayed in the donor’s list.
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 4: </b>
-              <p className='text-black'>A one-time donation of Rs 11,000/- towards equipment required for one elderly person. Donor’s name will be displayed in the donor’s list.</p>
+              <p className='text-black'>
+                Towards Pooja in our temple on a particular day – Rs 2,500.
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 5: </b>
-              <p className='text-black'>Towards Pooja in our temple on a particular day – Rs 2,500.</p>
+              <p className='text-black'>
+                Donating monies towards our equipment requirement from time to time. For e.g. TV, etc depending upon what we require
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 6: </b>
-              <p className='text-black'>Donating monies towards our equipment requirement from time to time. For e.g. TV, etc depending upon what we require</p>
+              <p className='text-black'>
+                Donations are accepted towards the expenses incurred for the maintenance of existing and planned green areas like lawns.
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 7: </b>
-              <p className='text-black'>Donations are accepted towards the expenses incurred for the maintenance of existing and planned green areas like lawns.</p>
+              <p className='text-black'>
+                Estimated expenses towards installing statues and chairs at regular intervals would be in the range of Rs 15 lacs.
+              </p>
             </div>
             <div className='flex'>
               <b>Plan 8: </b>
-              <p className='text-black'>Estimated expenses towards installing statues and chairs at regular intervals would be in the range of Rs 15 lacs.</p>
+              <p className='text-black'>
+                The donors can contribute as per their might. Monetary help as well as any kind of volunteering in any form is always welcome.
+              </p>
             </div>
-            <div className='flex'>
-              <b>Plan 9: </b>
-              <p className='text-black'>The donors can contribute as per their might. Monetary help as well as any kind of volunteering in any form is always welcome.</p>
-            </div>
-            <li>
-              50% of donations are allowed as deduction under Section 80G of IT Act
-            </li>
-            <li>
-              Exempted under Gift Tax under Section 5 (1) (v) of Gift Tax Act
-            </li>
-            <li>
-            Donations are not included in the wealth of the donor.
-            </li>
+            <ol type="a" className='text-black ml-16' style={{ listStyleType: 'lower-alpha' }}>
+              <li>
+                50% of donations are allowed as deduction under Section 80G of IT Act
+              </li>
+              <li>
+                Exempted under Gift Tax under Section 5 (1) (v) of Gift Tax Act
+              </li>
+              <li>
+                Donations are not included in the wealth of the donor.
+              </li>
+            </ol>
           </ol>
 
           <p className='text-black font-extrabold text-center mt-4 text-2xl'>
