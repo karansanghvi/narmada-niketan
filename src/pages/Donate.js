@@ -48,49 +48,49 @@ function Donate() {
             <li>
               We have a plan to increase the built-up area of the homes to a total of 90,000 sq ft. For this, we are in constant needs of funds. This donation is accepted for:
             </li>
-            <div className='flex'>
+            <div>
               <b>Plan 1: </b>
               <p className='text-black'>
                 Various schemes for naming a particular section of our Homes ranging from Rs 25 lacs to Rs 5 lacs.
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 2: </b>
               <p className='text-black'>
                 Fixing a name plate outside the rooms - Rs 150,000.
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 3: </b>
               <p className='text-black'>
                 A one-time donation of Rs 11,000/- towards equipment required for one elderly person. Donor’s name will be displayed in the donor’s list.
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 4: </b>
               <p className='text-black'>
                 Towards Pooja in our temple on a particular day – Rs 2,500.
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 5: </b>
               <p className='text-black'>
                 Donating monies towards our equipment requirement from time to time. For e.g. TV, etc depending upon what we require
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 6: </b>
               <p className='text-black'>
                 Donations are accepted towards the expenses incurred for the maintenance of existing and planned green areas like lawns.
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 7: </b>
               <p className='text-black'>
                 Estimated expenses towards installing statues and chairs at regular intervals would be in the range of Rs 15 lacs.
               </p>
             </div>
-            <div className='flex'>
+            <div>
               <b>Plan 8: </b>
               <p className='text-black'>
                 The donors can contribute as per their might. Monetary help as well as any kind of volunteering in any form is always welcome.
