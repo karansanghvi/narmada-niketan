@@ -10,7 +10,7 @@ function Donate() {
         </h1>
       </div>
 
-      <div className='ml-2 md:ml-56 mr-2 md:mr-72 mt-4'>
+      <div className='ml-4 md:ml-56 mr-2 md:mr-72 mt-4'>
         <p className='text-black text-justify'>
           Right from the inception of Narmada Charitable Foundation (NCF), numerous donors have showered us with their generosity. The donations have been in the form of money as well as volunteering.
           Several organizations also offer their contribution in the form of workshops, music (orchestra, karaoke) physiotherapy sessions etc. Without this support, we are certain that NCF would not have seen the light of this day.

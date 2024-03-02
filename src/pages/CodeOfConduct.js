@@ -9,7 +9,7 @@ function CodeOfConduct() {
           Code Of Conduct For Residents
         </h1>
       </div>
-      <div className='ml-2 md:ml-56 mr-2 md:mr-72 mt-4'>
+      <div className='md:ml-56 mr-4 ml-4 md:mr-72 mt-4'>
         <b className='text-black text-xl'>Criteria:</b>
         <ol type="1" className='text-black ml-3' style={{ listStyleType: 'decimal' }}>
           <li className='text-black'>Male applicants should be of more than 60 years of age & female applicants should be more than 55 years of age.</li>

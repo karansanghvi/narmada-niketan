@@ -11,7 +11,7 @@ function Tariff() {
         </h1>
       </div>
       <div className='flex justify-center mt-4'>
-        <p className='text-black text-lg md:text-xl lg:text-xl'>
+        <p className='text-black text-lg md:text-xl lg:text-xl ml-2 mr-2 text-center'>
           Deposit & Monthly Charges w.e.f April 2023 Per Senior Citizen
         </p>
       </div>

@@ -22,7 +22,7 @@ function Celebrations() {
         </h1>
       </div>
 
-      <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-2 md:mr-72 mt-4 gap-4' data-aos="flip-right">
+      <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-4 ml-4 md:mr-72 mt-4 gap-4' data-aos="flip-right">
           <div>
             <img src={celebration1} alt=""  />
             <h1 className='text-black text-center text-2xl font-bold'>Metro Ride</h1>
@@ -37,7 +37,7 @@ function Celebrations() {
           </div>
       </div>
 
-      <div className='grid md:grid-cols-2 grid-cols-1 md:ml-96 mr-2 md:mr-96 mt-4 gap-4' data-aos="flip-right">
+      <div className='grid md:grid-cols-2 grid-cols-1 md:ml-96 mr-4 ml-4 md:mr-96 mt-4 gap-4' data-aos="flip-right">
         <div>
           <img src={celebration4} alt=""  />
           <h1 className='text-black text-center text-2xl font-bold'>Republic Day</h1>

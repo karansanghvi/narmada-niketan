@@ -53,7 +53,7 @@ function AboutPresident() {
         </div>
       </div>
 
-      <div className='md:ml-56 mr-2 md:mr-72 mt-4'>
+      <div className='md:ml-56 md:mr-72 ml-4 mr-4'>
         <p className='text-black text-justify'>
           Additionally, our foundation has been enriched by the contributions of ex-trustees, namely <b>Shri. Hasmukhbhai M Mehta</b>, 
           <b>Late Shri. T N Chandran</b>, <b>Late Ms. Nirupamaben Vasavada</b> and <b>Late Shri. Nagindas Mehta</b>. 

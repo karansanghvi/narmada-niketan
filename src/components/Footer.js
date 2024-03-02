@@ -10,7 +10,7 @@ function Footer() {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <Link to="/" className="flex items-center">
-                <span className="self-center md:text-2xl text-xl font-semibold whitespace-nowrap text-black">
+                <span className="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-black">
                   Narmadaben Charitable Foundation
                 </span>
               </Link>
