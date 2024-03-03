@@ -4,6 +4,7 @@ import hiteshmehtapic from '../../assets/images/aboutus/hitesh mehta.jpg';
 import rahulmehtapic from '../../assets/images/aboutus/rahul mehta.jpg';
 import ashoknargardasmehtapic from '../../assets/images/aboutus/ashok nagardas mehta.jpg';
 import rrjairajpic from '../../assets/images/aboutus/dr rr jairaj.jpg';
+import subashpic from '../../assets/images/aboutus/subhash_pingale.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -20,7 +21,7 @@ function AboutPresident() {
           Our Team
         </h1>
       </div>
-      <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-2 md:mr-72 mt-4'>
+      <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-2 md:mr-72 mt-4 gap-2'>
         <div data-aos="flip-right">
           <img src={hiteshmehtapic} alt="" className="hero-image rounded-lg shadow-xl" />
           <h1 className='text-black text-3xl font-extrabold ml-24'>Hitesh Mehta</h1>
@@ -40,15 +41,20 @@ function AboutPresident() {
 
       <br />
 
-      <div className='grid md:grid-cols-2 grid-cols-1 md:ml-96 mr-2 md:mr-72 mt-4'>
+      <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-2 md:mr-72 mt-4 gap-2'>
         <div data-aos="flip-right">
           <img src={ashoknargardasmehtapic} alt="" className="hero-image rounded-lg shadow-xl" />
-          <h1 className='text-black text-3xl font-extrabold ml-19'>Ashok Nagardas Mehta</h1>
+          <h1 className='text-black text-2xl font-extrabold ml-22'>Ashok Nagardas Mehta</h1>
           <i className='text-black ml-36 text-xl'>Trustee</i>
         </div>
         <div data-aos="flip-right">
           <img src={rrjairajpic} alt="" className="hero-image rounded-lg shadow-xl" />
-          <h1 className='text-black text-3xl font-extrabold ml-24'>Dr. RR Jairaj</h1>
+          <h1 className='text-black text-2xl font-extrabold ml-24'>Dr. RR Jairaj</h1>
+          <i className='text-black ml-36 text-xl'>Trustee</i>
+        </div>
+        <div data-aos="flip-right">
+          <img src={subashpic} alt="" className="hero-image rounded-lg shadow-xl" />
+          <h1 className='text-black text-2xl font-extrabold ml-22'>Subhash G Pingale</h1>
           <i className='text-black ml-36 text-xl'>Trustee</i>
         </div>
       </div>
