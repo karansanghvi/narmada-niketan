@@ -44,7 +44,7 @@ function AboutPresident() {
       <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-2 md:mr-72 mt-4 gap-2'>
         <div data-aos="flip-right">
           <img src={ashoknargardasmehtapic} alt="" className="hero-image rounded-lg shadow-xl" />
-          <h1 className='text-black text-2xl font-extrabold ml-22'>Ashok Nagardas Mehta</h1>
+          <h1 className='text-black text-xl font-extrabold ml-22'>Ashok Nagardas Mehta</h1>
           <i className='text-black ml-36 text-xl'>Trustee</i>
         </div>
         <div data-aos="flip-right">
@@ -54,7 +54,7 @@ function AboutPresident() {
         </div>
         <div data-aos="flip-right">
           <img src={subashpic} alt="" className="hero-image rounded-lg shadow-xl" />
-          <h1 className='text-black text-2xl font-extrabold ml-22'>Subhash G Pingale</h1>
+          <h1 className='text-black text-xl font-extrabold ml-24'>Subhash G Pingale</h1>
           <i className='text-black ml-36 text-xl'>Trustee</i>
         </div>
       </div>
