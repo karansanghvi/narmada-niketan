@@ -31,7 +31,6 @@ function Celebrations() {
         </h1>
       </div>
 
-      <h1 className='text-black text-center text-2xl font-bold mt-8'>Germans Visiting NCF</h1>
       <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-4 ml-4 md:mr-72 mt-4 gap-4' data-aos="flip-right">
           <div>
             <img src={german1} alt=""  />
@@ -67,6 +66,7 @@ function Celebrations() {
             <img src={german9} alt=""  />
           </div>
       </div>
+      <h1 className='text-black text-center text-2xl font-bold mt-8'>Germans Visiting NCF</h1>
 
       <div className='grid md:grid-cols-3 grid-cols-1 md:ml-56 mr-4 ml-4 md:mr-72 mt-4 gap-4' data-aos="flip-right">
           <div>
